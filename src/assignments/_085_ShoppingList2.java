@@ -24,7 +24,7 @@ public class _085_ShoppingList2 {
 			    break;
 			  }
 			  count++;
-			}while(count<=10);
+			}while(count<=2);
 			System.out.println(shoppingListReport.substring(0,shoppingListReport.length()-2));
 			System.out.println("Total price: "+totalProce);
 			

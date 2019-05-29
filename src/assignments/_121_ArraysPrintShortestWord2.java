@@ -9,6 +9,12 @@ public class _121_ArraysPrintShortestWord2 {
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
 
+		
+		// convert string to array
+		// find the word with minimum length
+		// find how many word are the same length and minimum
+		// create a new array with that size
+		// assign minimum length words to new array
 		String[] strArray = str.split(", ");
 		// System.out.println(Arrays.toString(strArray));
 		int minLength = Integer.MAX_VALUE;

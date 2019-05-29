@@ -8,11 +8,10 @@ public class _134_2DArraysChessBoard {
 		    String[][] chessBoard = new String[8][8];
 		    //WRITE YOUR CODE HERE
 		    for(int i = 0;i<chessBoard.length;i++){
-		    	int j = 0;
-		        for(char ch = 'a'; ch<'i';ch++){
-		          
+		    	char ch = 'a';
+		        for(int j = 0; j<chessBoard[i].length;j++){
 		          chessBoard[i][j] = (i+1)+""+ch;
-		          j++;
+		          ch++;
 		         // System.out.println(ch);
 		        }
 		    }

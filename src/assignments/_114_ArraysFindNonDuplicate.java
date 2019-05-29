@@ -16,9 +16,8 @@ public class _114_ArraysFindNonDuplicate {
 		// int [] collectionOfUniques = new int[nums.length];
 		String collectionOfUniques = "";
 		//int unigue = 0;
-		int count = 0;
 		for (int i = 0; i < nums.length; i++) {
-			
+			int count = 0;
 			for (int j = 0; j < nums.length; j++) {
 				if (nums[i] == nums[j]&& i != j) {
 					count++;
@@ -32,7 +31,6 @@ public class _114_ArraysFindNonDuplicate {
 //				unigue = nums[i];
 //				break;
 			}
-			count = 0;
 		}
 		//System.out.println(unigue);
 		System.out.println(collectionOfUniques);
